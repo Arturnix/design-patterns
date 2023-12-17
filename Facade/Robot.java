@@ -2,7 +2,7 @@ package co.devfoundry.fasada.artykul;
 
 class Robot {
 
-    void authoroziePersonel() {
+    void authorizePersonel() {
         System.out.println("Use authorization coin to gain access to the control system of the robot.");
     }
 

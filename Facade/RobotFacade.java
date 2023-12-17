@@ -11,7 +11,7 @@ public class RobotFacade {
     }
 
     public void makeRobotMoves() {
-        robot.authoroziePersonel();
+        robot.authorizePersonel();
         if(robotControl.validateAuthorizationCoin()) {
             robot.setDetailsOfTheProductionProcess();
             if(robotControl.evaluateProgram()) {
